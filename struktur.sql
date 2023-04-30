@@ -1,0 +1,7 @@
+CREATE TABLE pegawai (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  nama VARCHAR(50) NOT NULL,
+  alamat TEXT NOT NULL,
+  jabatan VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id)
+);
